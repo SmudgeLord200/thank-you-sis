@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     // Initialize the audio object
-    const bgAudio = new Audio('/bgm.mp3'); // Ensure the file is in the public folder
+    const bgAudio = new Audio('/thank-you-sis/bgm.mp3'); // Ensure the file is in the public folder
     bgAudio.loop = true; // Enable looping
     bgAudio.volume = 0.5; // Set volume (optional)
     setAudio(bgAudio);
